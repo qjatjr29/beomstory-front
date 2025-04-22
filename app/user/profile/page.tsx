@@ -746,6 +746,7 @@ import {
   Modal,
   Form,
   Input,
+  InputRef,
   Upload,
   Tooltip,
   Tag,
@@ -831,7 +832,8 @@ export default function MyProfilePage() {
   // 폼 관련
   const [nicknameForm] = Form.useForm()
   const [passwordForm] = Form.useForm()
-  const nicknameInputRef = useRef<Input>(null)
+  // const nicknameInputRef = useRef<Input>(null)
+  const nicknameInputRef = useRef<InputRef>(null)
 
   // OAuth 사용자인지 확인 (OAUTH 타입만 해당)
   const isOAuthUser = user?.authType === "OAUTH"
