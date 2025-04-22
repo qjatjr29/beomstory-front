@@ -1,0 +1,56 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 90vh;
+  background-color: #f3f4f6;
+}
+
+.card {
+  width: 100%;
+  max-width: 400px;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  padding: 24px;
+  background-color: white;
+}
+
+.title {
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+.socialButtons {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.socialButtonIcon {
+  width: 20px;
+  height: 20px;
+}
+
+.kakaoButton {
+  background-color: #fee500;
+  border-color: #fee500;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+
+.naverButton {
+  background-color: #03c75a;
+  border-color: #03c75a;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+
+.footer {
+  text-align: center;
+  margin-top: 24px;
+}

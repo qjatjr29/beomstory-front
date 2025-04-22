@@ -1,0 +1,96 @@
+/* 일상 기록 관련 스타일 */
+.story-register-layout .ant-layout-header {
+    height: 64px;
+    line-height: 64px;
+    background: #fff;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.05);
+  }
+  
+  .story-form-card {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .story-place-list-empty {
+    padding: 20px;
+    text-align: center;
+    background: #f9f9f9;
+    border-radius: 4px;
+    margin-bottom: 16px;
+  }
+  
+  .story-place-item {
+    cursor: pointer;
+    padding: 12px;
+    border-radius: 8px;
+  }
+  
+  .story-place-item.selected {
+    background-color: #f0f7ff;
+  }
+  
+  .story-place-avatar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background-color: #f0f0f0;
+  }
+  
+  /* 장소 선택 모달 스타일 */
+  .place-modal-loading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+  }
+  
+  .place-modal-content {
+    height: 100%;
+    width: 100%;
+    display: flex;
+  }
+  
+  /* 모달 내 지도 관련 스타일 */
+  .place-modal-content .ant-layout-content {
+    height: 100%;
+    display: flex;
+  }
+  
+  .place-modal-content .search-panel {
+    height: 100%;
+    overflow-y: auto;
+  }
+  
+  .place-modal-content .map-panel-card {
+    height: 100%;
+  }
+  
+  .place-modal-content .kakao-map {
+    height: calc(90vh - 150px) !important;
+    min-height: 400px;
+  }
+  
+  /* 모달 내 검색 패널 스타일 */
+  .place-modal-content .search-results-container {
+    overflow-y: auto;
+    max-height: calc(90vh - 250px);
+  }
+  
+  .place-modal-content .search-results-container::-webkit-scrollbar {
+    width: 6px;
+  }
+  
+  .place-modal-content .search-results-container::-webkit-scrollbar-thumb {
+    background-color: #d9d9d9;
+    border-radius: 3px;
+  }
+  
+  .place-modal-content .search-results-container::-webkit-scrollbar-track {
+    background-color: #f0f0f0;
+  }
+  
+  
