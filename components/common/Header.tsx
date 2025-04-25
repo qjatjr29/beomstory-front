@@ -393,9 +393,6 @@ export default function Header({ full, isLoading = false }: HeaderProps) {
 
       setLocalIsLoggedIn(!!token && !!storedUser)
       setLocalUser(storedUser)
-
-      // console.log("Header - 로그인 상태 확인:", !!token && !!storedUser)
-      // console.log("Header - 사용자 정보:", storedUser)
     }
 
     // 초기 로드 시 확인

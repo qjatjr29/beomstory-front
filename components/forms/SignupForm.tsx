@@ -262,7 +262,7 @@ const SignupForm = () => {
             Google로 회원가입
           </Button>
           <Button
-            icon={<img src="/naver_logo.png" alt="naver" className={styles.socialButtonIcon} />}
+            icon={<img src="/images/naver.png" alt="naver" className={styles.socialButtonIcon} />}
             onClick={() => handleSocialLogin("naver")}
             block
             className={styles.naverButton}
@@ -270,7 +270,7 @@ const SignupForm = () => {
             네이버로 회원가입
           </Button>
           <Button
-            icon={<img src="/kakao_logo.png" alt="kakao" className={styles.socialButtonIcon} />}
+            icon={<img src="/images/kakao-talk.png" alt="kakao" className={styles.socialButtonIcon} />}
             onClick={() => handleSocialLogin("kakao")}
             block
             className={styles.kakaoButton}

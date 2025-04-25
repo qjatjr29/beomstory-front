@@ -126,7 +126,7 @@
 "use client"
 
 import { Button, Card, Form, Input, Typography, Divider, message, Checkbox } from "antd"
-import { GoogleOutlined } from "@ant-design/icons"
+import { GoogleOutlined, } from "@ant-design/icons"
 import Link from "next/link"
 import { useRouter } from "next/navigation"
 import { userApi } from "@api/api-client"
@@ -224,7 +224,7 @@ const LoginForm = () => {
           </Button>
 
           <Button
-            icon={<img src="/naver_logo.png" alt="naver" className={styles.socialButtonIcon} />}
+            icon={<img src="/images/naver.png" alt="naver" className={styles.socialButtonIcon} />}
             onClick={() => handleSocialLogin("naver")}
             block
             className={styles.naverButton}
@@ -233,7 +233,7 @@ const LoginForm = () => {
           </Button>
 
           <Button
-            icon={<img src="/kakao_logo.png" alt="kakao" className={styles.socialButtonIcon} />}
+            icon={<img src="/images/kakao-talk.png" alt="kakao" className={styles.socialButtonIcon} />}
             onClick={() => handleSocialLogin("kakao")}
             block
             className={styles.kakaoButton}

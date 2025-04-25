@@ -603,7 +603,7 @@ export default function Home() {
               </div>
             </Col>
             <Col xs={24} md={12}>
-              <Card>
+              {/* <Card>
                 <div
                   style={{
                     height: "200px",
@@ -626,9 +626,9 @@ export default function Home() {
                     <Text>일상 기록 시작 화면</Text>
                   )}
                 </div>
-              </Card>
+              </Card> */}
 
-              {/* <Card>
+              <Card>
                 <div
                   style={{
                     height: "200px",
@@ -640,7 +640,7 @@ export default function Home() {
                 >
                   <Text>일상 기록 시작 화면</Text>
                 </div>
-              </Card> */}
+              </Card>
             </Col>
           </Row>
 
