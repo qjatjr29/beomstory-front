@@ -368,7 +368,7 @@ export default function Home() {
     const fetchRecentStories = async () => {
       try {
         setLoading(true)
-        const response = await storyApi.getStories(0, 5) // 최근 5개만 가져오기
+        const response = await storyApi.getArchivedStory(0, 5) // 최근 5개만 가져오기
         if (response && response.content) {
           setRecentStories(response.content)
         }

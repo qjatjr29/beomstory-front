@@ -16,6 +16,19 @@ export class storyApi extends Api {
     return response.data
   }
 
+  // 작성 완료된 일상 기록 조회
+  getArchivedStory = async (page = 0, size = 10) => {
+    try {
+      const response = await this.baseInstance.get(`${this.storyPath}/archived`, {
+        params: { page, size },
+      })
+      return response.data
+    } catch (error) {
+      console.error("작성 완료된 기록 조회 실패:", error)
+      return null
+    }
+  }
+
   // 스토리 상세 조회 (로그인 불필요)
   getStoryById = async (storyId: number) => {
     const response = await this.baseInstance.get(`${this.storyPath}/${storyId}`)
