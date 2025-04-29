@@ -7,7 +7,7 @@
 일상 기록 서비스의 프론트엔드 구현
 
 ### 🔗 링크
-[🚀 서비스](https://beomstory-front-6ssnvg27t-qjatjr29s-projects.vercel.app)
+[🚀 서비스](https://beomstory-front-6ssnvg27t-qjatjr29s-projects.vercel.app)  
 [↖️ Backend 코드 보러가기 (Github)](https://github.com/qjatjr29/Beom-story)
 
 ### ⌛️ 프로젝트 기간
