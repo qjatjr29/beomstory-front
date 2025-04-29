@@ -432,7 +432,7 @@ export default function Header({ full, isLoading = false }: HeaderProps) {
 
   const handleSearch = (value: string) => {
     if (value) {
-      router.push(`/search?keyword=${encodeURIComponent(value)}`)
+      router.push(`/story/search?keyword=${encodeURIComponent(value)}`)
       closeDrawer()
     }
   }

@@ -99,6 +99,18 @@ export class storyApi extends Api {
       throw error
     }
   }
+
+  searchStories = async (keyword: string, page = 0, size = 10) => {
+    try {
+      const response = await this.baseInstance.get(`${this.storyPath}/search`, {
+        params: { keyword, page, size },
+      })
+      return response.data
+    } catch (error) {
+      console.error("스토리 검색 실패:", error)
+      return null
+    }
+  }
 }
 
 export default new storyApi()
